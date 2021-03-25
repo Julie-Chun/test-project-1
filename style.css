@@ -1,0 +1,78 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css?family=Concert One");
+@import url("https://fonts.googleapis.com/css?family=Coiny");
+body {
+  font-family: Concert One;
+  margin: 2em;
+  background-color: #59575d;
+  color: white; 
+}
+
+h1 {
+  font-style: italic;
+  font-family: Coiny;
+  color: #ffe77e;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: #d3ffcf;
+}
+
+#button1:active, #button1.lit {
+    background: #10400f;
+}
+
+#button2 {
+    background: #ffcfcf;
+}
+
+#button2:active , #button2.lit {
+    background: #400f0f;
+}
+
+#button3 {
+    background: #cfe1ff;
+}
+
+#button3:active, #button3.lit {
+    background: #100f40;
+}
+
+#button4 {
+    background: #ffffcf;
+}
+
+#button4:active, #button4.lit {
+  background: #3e400f;
+}
+
+#button5 {
+    background: #f3dbff;
+}
+
+#button5:active, #button5.lit {
+  background: #6a089c;
+}
+
+#button6 {
+    background: #ffe4c4;
+}
+
+#button6:active, #button6.lit {
+  background: #b36407;
+}
