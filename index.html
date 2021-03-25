@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>♪ ♫ Follow the Sound ♫ ♪</h1>
+    
+    <p>
+      Welcome to my new game! Here are some simple rules:<br> 1. Press the 'Start' button to play the game.
+      <br> 2. Press the 'Stop' button to end the game.
+      <br> 3. To play, simply follow the pattern displayed on screen by clicking the buttons below.
+      <br> 4. If you press the wrong button more than 3 times, Game Over!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">Start</button>
+    
+    <button id="stopBtn" class = "hidden" onclick="stopGame()">Stop</button>
+    
+    <div id = "gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+
+  </body>
+</html>
